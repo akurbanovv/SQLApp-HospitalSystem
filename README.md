@@ -19,3 +19,10 @@ Doctor: did (PK), pswd, name, age, gender, address
 Has: doctor_id, patient_id (PK)(FK), nurse_id 
 Appointments: Date, Time, doctor_id (FK), patient_id (FK), description 
 Manager: mgid (PK), pswd, name
+
+### Assumptions
+
+- One patient has only one doctor to care for them
+- Doctors can care for multiple patients.
+- Appointments of a doctor cannot be on the same time i.e. Same (Date, Time) needs different doctors.
+
