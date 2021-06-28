@@ -26,4 +26,4 @@ A key point that Hung is very proud of is the Trigger for deleting a user's info
 - Doctors can care for multiple patients.
 - Appointments of a doctor cannot be on the same time i.e. Same (Date, Time) needs different doctors.
 
-![](https://docs.github.com/assets/images/github-apps/content_reference_attachment.png_)
+![](https://github.com/akurbanovv/SQLApp-HospitalSystem/blob/master/ER%20diagram.png)
