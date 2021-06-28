@@ -14,11 +14,11 @@ A key point that Hung is very proud of is the Trigger for deleting a user's info
 
 ### Data Requirement
 
-Patient: pid (PK), pswd, name, age, gender, medication 
-Doctor: did (PK), pswd, name, age, gender, address 
-Has: doctor_id, patient_id (PK)(FK), nurse_id 
-Appointments: Date, Time, doctor_id (FK), patient_id (FK), description 
-Manager: mgid (PK), pswd, name
+- Patient: pid (PK), pswd, name, age, gender, medication 
+- Doctor: did (PK), pswd, name, age, gender, address 
+- Has: doctor_id, patient_id (PK)(FK), nurse_id 
+- Appointments: Date, Time, doctor_id (FK), patient_id (FK), description 
+- Manager: mgid (PK), pswd, name
 
 ### Assumptions
 
